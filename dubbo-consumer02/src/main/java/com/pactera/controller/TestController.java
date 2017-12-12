@@ -32,7 +32,7 @@ public class TestController {
     @RequestMapping(value = { "/consumer/testMain" })  
     @ResponseBody  
     public String testDubbo() {  
-        return "consuemr01" + testInterface.test();  
+        return "consuemr02" + testInterface.test();  
     }  
   
   
