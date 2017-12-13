@@ -1,7 +1,9 @@
 package com.pactera.provider01;
 
-import com.pactera.service.TestService;
+import org.springframework.stereotype.Service;
 
+import com.pactera.service.TestService;
+@Service
 public class TestServiceImpl implements TestService {  
 	  
     public String test() {  
