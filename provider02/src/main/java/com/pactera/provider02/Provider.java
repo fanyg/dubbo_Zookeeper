@@ -9,7 +9,7 @@ public class Provider {
         PropertyConfigurator.configure("src/main/resources/log4.properties");  
     }  
     public static void main(String args[]) throws Exception {  
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath*:/*.xml");  
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath*:/provider.xml");  
         context.start();  
         System.in.read();  
     }  
